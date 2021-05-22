@@ -13,7 +13,7 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 # OpenCV
-find_package(OpenCV 3.4 REQUIRED)
+find_package(OpenCV 3 REQUIRED)
 #find_package(OpenCV REQUIRED PATHS /usr/local NO_DEFAULT_PATH)
 
 ## Set compiler optimization flags
